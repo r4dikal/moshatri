@@ -135,7 +135,7 @@ if matches[1] == 'setlink' then
      return "_First set a link with_ *using ➣ /setlink link*"
          end
         tdcli.sendMessage(user, "", 1, "<b>Group Link :</b>\n"..linkgp, 1, 'html')
-            return "_Link was send in your private message_"
+            return "_Link was send in your private message :))_"
      end
 if matches[1] == "setname" and matches[2] then
 local gp_name = string.gsub(matches[2], "_","")
