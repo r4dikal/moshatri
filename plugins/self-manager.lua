@@ -45,7 +45,7 @@ if gp_type(msg.chat_id_) == 'channel' then
     text = text..'_》Auto Leave :_ *'..autoleave..'*\n_》Mute All :_ *'..muteall..'*\n_》Messages Read :_ *'..markread..'*\n_》Pv Max Flood :_ *['..MSG_NUM_MAX..']*\n_》Pv Flood Time Check :_ *['..TIME_CHECK..']*\n_》Pv Flood Protection :_ *'..antiflood..'*\n*》*@BeyondTeam*《*'
 return text
 elseif gp_type(msg.chat_id_) == 'pv' or gp_type(msg.chat_id_) == 'chat' then
-    text = text..'_》Auto Leave :_ *'..autoleave..'*\n_》Messages Read :_ *'..markread..'*\n_》Pv Max Flood :_ *['..MSG_NUM_MAX..']*\n_》Pv Flood Time Check :_ *['..TIME_CHECK..']*\n_》Pv Flood Protection :_ *'..antiflood..'*\n*》*@BeyondTeam*《*'
+    text = text..'_》Auto Leave :_ *'..autoleave..'*\n_》Messages Read :_ *'..markread..'*\n_》Pv Max Flood :_ *['..MSG_NUM_MAX..']*\n_》Pv Flood Time Check :_ *['..TIME_CHECK..']*\n_》Pv Flood Protection :_ *'..antiflood..'*\n*》*@Younestear*《*'
 return text
    end
 end
@@ -335,7 +335,7 @@ _UnBlock User_
 *Good Luck ;)*]]
 
 tdcli.sendMessage(msg.sender_user_id_, "", 0, text, 0, "md")
-            return '_Help was send in your private message_'
+            return '_Help was send in your private message :|_'
 end
 end
 
